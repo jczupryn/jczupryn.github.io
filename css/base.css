@@ -25,7 +25,7 @@ header h1 {
     float:left;
     font-family: arial, helvetica, sans-serif;
     font-size: 22px;
-    font-weight: 500px;
+    font-weight: 500;
     padding: 10px;
 }
 
@@ -58,7 +58,7 @@ article {
 article h1 {
     font-family: georgia, times, serif;
     font-size: 36px;
-    font-weight:500px;
+    font-weight:500;
     line-height: 44px;
     margin-top: 4px;
 }
@@ -66,7 +66,7 @@ article h1 {
 article h2 {
     font-family: georgia, times, serif;
     font-size: 24px;
-    font-weight:500px;
+    font-weight:500;
     color: #000000;
     line-height: 24px;
     margin-bottom: 8px;
@@ -109,7 +109,7 @@ footer h1 {
     float:left;
     font-family: arial, helvetica, sans-serif;
     font-size: 22px;
-    font-weight: 500px;
+    font-weight: 500;
     padding: 10px;
 }
 
@@ -138,3 +138,25 @@ hr {
     background-color: #ff0000;
     height: 6px;
 }
+
+@media screen and (max-width:600px) {
+ 
+    body {
+        padding: 3%;
+    }
+    header nav {
+        display: inline; 
+        text-align:center;
+    }    
+    
+    header a {
+   color: #ff0000;
+    margin-right: 12px;
+    text-decoration:none;
+}
+   image {
+     clear: both   
+    }
+    
+}    
+
